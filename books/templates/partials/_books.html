@@ -1,0 +1,8 @@
+<div class="card">
+    <img src="{{ kitap.resim }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ kitap.kitap_adi }}</h5>
+      <p class="card-text">{{ kitap.aciklama }}</p>
+      <a href="{% url 'detail' kitap.id %}" class="btn btn-primary">Detay</a>
+    </div>
+  </div>
