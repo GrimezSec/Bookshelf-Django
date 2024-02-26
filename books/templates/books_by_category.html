@@ -10,7 +10,7 @@
 
 {% include 'partials/_navbar.html' %}
 <div class="container mt-3">
-    <h2>{{ kategori.name }} Kategorisindeki Kitaplar</h2>
+    <h2> Books in {{ kategori.name }} Category </h2>
     <div class="row">
         {% for kitap in kitaplar %}
         <div class="col-md-4">
@@ -19,7 +19,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ kitap.kitap_adi }}</h5>
                     <p class="card-text">{{ kitap.aciklama }}</p>
-                    <a href="{% url 'detail' kitap.id %}" class="btn btn-primary">Detaylar</a>
+                    <a href="{% url 'detail' kitap.id %}" class="btn btn-primary">Details</a>
                 </div>
             </div>
         </div>
