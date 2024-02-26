@@ -5,7 +5,7 @@ This is a sample Django Web Framework project idea from [this YouTube Video](htt
 This is a simple web application built with Django for managing a book library. Users can view a list of books, search for books, view details of individual books, and browse books by categories.
 
 ## Features
-
+- Add books and categorize
 - View a list of books available in the library.
 - Search for books by title.
 - View details of individual books including description and cover image.
