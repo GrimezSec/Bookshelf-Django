@@ -13,6 +13,9 @@ class Book(models.Model):
     anasayfa = models.BooleanField(default=False)
     category = models.ForeignKey(Category, on_delete=models.CASCADE, default=1)
 
-
     def __str__(self):
         return self.kitap_adi
+    
+    class Meta:
+        verbose_name = "Book"
+        verbose_name_plural = "Books"
