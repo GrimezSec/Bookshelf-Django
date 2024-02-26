@@ -16,7 +16,7 @@ This is a simple web application built with Django for managing a book library. 
 1. Clone the repository:
 
     ```
-    git clone https://github.com/your_username/bookshelf-django.git
+    git clone https://github.com/GrimezSec/Bookshelf-Django.git
     ```
 
 2. Navigate to the project directory:
